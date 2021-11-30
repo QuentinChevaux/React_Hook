@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'
 
 function Home() {
 
+    let navigate = useNavigate()
+    
     return(
-
+        
         <>
             <main>
 
@@ -15,7 +18,13 @@ function Home() {
 
             <nav>
 
-                <Link to = '/about'>About</Link>
+                <button onClick = { () => {
+
+                    navigate("/about")
+
+                }}>About</button>
+
+                {/* <Link to = '/about'>About</Link> */}
 
             </nav>
 
