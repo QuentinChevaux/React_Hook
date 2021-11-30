@@ -1,4 +1,3 @@
-import userEvent from '@testing-library/user-event';
 import React, { useState, useEffect } from 'react'
 
 function Compteur() {
@@ -22,7 +21,6 @@ function Compteur() {
             <button onClick = { () => setCount(0)}>Remettre le compteur à 0 </button>
 
         </div>
-
 
     )
     
