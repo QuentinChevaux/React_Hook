@@ -8,7 +8,7 @@ function About() {
 
             <main>
 
-                <h2>Voiçi la page About</h2>
+                <h2>Voiçi la Page About</h2>
 
                 <p>Blablablabla</p>
 
