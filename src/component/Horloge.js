@@ -18,7 +18,7 @@ function Horloge() {
 
         <div className='horloge'>
 
-            <p>Il est {time} heure</p>
+            <p>Il est {time}</p>
 
         </div>
 
