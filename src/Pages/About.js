@@ -16,7 +16,7 @@ function About() {
 
             <nav>
 
-                <Link to = '/Home'>Home</Link>
+                <Link to = '/'>Home</Link>
 
             </nav>
 

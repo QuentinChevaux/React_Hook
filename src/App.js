@@ -3,7 +3,7 @@ import './App.css';
 import Card from './component/Card'
 import Compteur from './component/Compteur';
 import Horloge from './component/Horloge';
-import { BrowserRouteur, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home';
 import About from './Pages/About'
 
@@ -12,7 +12,7 @@ function App() {
 
     <div className="App">
 
-      <BrowserRouteur>
+      <BrowserRouter>
 
         <Card></Card>
         <Compteur></Compteur>
@@ -25,7 +25,7 @@ function App() {
 
         </Routes>
 
-      </BrowserRouteur>
+      </BrowserRouter>
 
     </div>
 
